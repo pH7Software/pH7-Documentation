@@ -1,0 +1,21 @@
+## Logs
+*.log
+*.tmp
+
+# Linux
+*~
+*.swp
+# KDE
+.directory
+
+# Windows
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Mac
+.DS_Store*
+._*
+
+# PHPStorm
+.idea
