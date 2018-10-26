@@ -11,7 +11,7 @@ namespace PH7\Doc;
 
 defined('PH7') or exit('Restricted access');
 
-const GITHUB_REPO = 'https://github.com/pH7Software/pH7-Social-Dating-CMS';
+const GITHUB_REPO = 'https://github.com/pH7Software/pH7-Documentation';
 
 /**
  * Detect the user's preferred language.
@@ -129,7 +129,7 @@ function get_edit_page_url()
         return '';
     }
 
-    $sUrl = GITHUB_REPO . '/blob/master/_doc/data/';
+    $sUrl = GITHUB_REPO . '/blob/master/data/';
     $sUrl .= LANG . '/';
     $sUrl .= strip_tags($_GET['p']);
     $sUrl .= '.tpl';
