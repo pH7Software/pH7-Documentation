@@ -6,7 +6,7 @@
 
     <footer>
       {menu_langs}
-      <p>Powered by <strong><a href="http://github.com/pH-7/Nav-Doc-Script-V2" title="Free PHP Documentation Script">Nav Doc Script</a></strong>. <em>Proud to be open source!</em></p>
+      <p>Powered by <strong><a href="https://github.com/pH-7/Nav-Doc-Script-V2" title="Free PHP Documentation Script">Nav Doc Script</a></strong>. <em>Proud to be open source! ❤️</em></p>
       <p><strong><a href="http://ph7cms.com">{site_name}</a></strong> &copy; {year}</p>
     </footer>
 
