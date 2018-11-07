@@ -1,6 +1,6 @@
           </article>
         </section>
-      </div>
+      </main>
     </div>
     <hr />
 

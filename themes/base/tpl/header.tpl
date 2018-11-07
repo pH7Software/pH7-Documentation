@@ -20,7 +20,6 @@
     </header>
 
     <div id="ajph">
-        <div id="sub_ajph">
-
+        <main id="sub_ajph" role="main">
             <section>
                 <article>
