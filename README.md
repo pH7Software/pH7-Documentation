@@ -1,4 +1,4 @@
-# pH7 Social Dating Builder - Documentation
+# pH7 Social Dating Builder 🍪 Documentation
 
 _The Documentation for the "pH7 Social Dating Builder" Software._
 
@@ -11,4 +11,7 @@ _The Documentation for the "pH7 Social Dating Builder" Software._
 
 ## Author
 
-I'm [Pierre-Henry Soria](http://ph7.me) 😃
+Hey! 👋 I'm [Pierre-Henry Soria](http://ph7.me) 😃
+
+
+## License
