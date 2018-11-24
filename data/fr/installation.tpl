@@ -31,4 +31,4 @@ Attention, les dossiers suivants doivent avoir les permissions <em>777</em> :</p
 
 <h3>5. Lancez l'installateur</h3>
 <p>Vous devez simplement vous rendre à l'URL suivante et suivre attentivement les instructions : <em>http://www.VOTRE-SITE.com/<strong>_install</strong>/</em></p>
-<p><iframe width="560" height="315" src="//www.youtube.com/embed/fFSI-AEMQwY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="600" height="400" src="//www.youtube.com/embed/fFSI-AEMQwY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>

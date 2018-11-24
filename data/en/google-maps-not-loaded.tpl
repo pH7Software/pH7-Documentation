@@ -43,6 +43,6 @@
 </figure>
 
 <p>
-    <iframe height="400" src="//www.youtube.com/embed/45uVP_C-ZCk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+    <iframe width="600" height="400" src="//www.youtube.com/embed/45uVP_C-ZCk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
         allowfullscreen></iframe>
 </p>
