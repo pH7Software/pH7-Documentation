@@ -84,8 +84,9 @@ img, video, iframe {
     max-width: 100%;
 }
 
-iframe, img {
-    border: 1px #475C9E solid;
+img {
+    border: 1px #7c7c7c solid;
+    border-radius: 5px;
 }
 
 figure {
