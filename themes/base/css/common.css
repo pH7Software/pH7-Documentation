@@ -48,11 +48,6 @@ input[type="submit"], input[type="reset"] {
     width: 190px;
 }
 
-iframe {
-    border: 1px #475C9E solid;
-    width: 100%;
-}
-
 ul li {
     display: block;
     line-height: 1.5rem;
@@ -87,6 +82,10 @@ abbr {
 
 img, video, iframe {
     max-width: 100%;
+}
+
+iframe, img {
+    border: 1px #475C9E solid;
 }
 
 figure {

@@ -30,6 +30,17 @@ If you want to allow it, you need to set in numerical values <em>777</em> for al
 <h3>Run the upgrade wizard</h3>
 <p>You must login as administrator and go to the following URL and follow the instructions carefully: <em>http://YOUR-DOMAIN.COM/<strong>asset/file/Upgrade</strong></em></p>
 
+<p class="warning">If more than one upgrade is available on the "Upgrade" page, please run from oldest version to newest one (all of the available upgrades have to be executed).</p>
+
+<figure>
+    <a href="{site_url}static/img/upgrade-page-ph7cms.png" target="_blank">
+        <img src="{site_url}static/img/upgrade-page-ph7cms.png"
+             alt="Upgrade page; Order of upgrade patch to be executed"
+             title="Upgrade page; Order of upgrade patch to be executed" />
+    </a>
+    <figcaption><em>Upgrade page; Order of upgrade patch to be executed</em></figcaption>
+</figure>
+
 
 <h3>Put back your modifications (optional)</h3>
 <p>Put back any modifications you did from your latest backup since they could have been erase from the update.</p>
