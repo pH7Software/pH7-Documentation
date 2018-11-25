@@ -15,3 +15,5 @@ Hey! 👋 I'm [Pierre-Henry Soria](http://ph7.me) 😃
 
 
 ## License
+
+CC-BY - http://creativecommons.org/licenses/by/3.0/
