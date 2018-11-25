@@ -11,7 +11,7 @@ _The Documentation for the "pH7 Social Dating Builder" Software._
 
 ## Author
 
-Hey! 👋 I'm [Pierre-Henry Soria](http://ph7.me) 😃
+Hey there! 👋 I'm [Pierre-Henry Soria](http://ph7.me) 😃 The author of this project (done with LOTs of passion and love!)
 
 
 ## License
