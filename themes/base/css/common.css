@@ -84,7 +84,7 @@ img, video, iframe {
     max-width: 100%;
 }
 
-img {
+main img {
     border: 1px #7c7c7c solid;
     border-radius: 5px;
 }
