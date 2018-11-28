@@ -7,7 +7,7 @@
 <h3>Extract the upgrade archive</h3>
 <p>
     Extract the latest version of the <a href="https://sourceforge.net/projects/ph7socialdating/files/latest/download" target="_blank" rel="nofollow noopener" title="Download It!">software zip archive</a> using a file archiver software such <a href="http://sourceforge.net/projects/sevenzip/">7-Zip</a>.<br />
-    Remove "<strong>~/YOUR-PROTECTED-FOLDER/framework/Security/Version.class.php</strong>" from the archive before overwriting all files on your server (Version.class.php don't have to be overwritten).
+    Remove "<strong>~/YOUR-PROTECTED-FOLDER/framework/Security/Version.class.php</strong>" from the archive before overwriting all files on your server (Version.class.php doesn't have to be overwritten).
 </p>
 
 <h3>Upload files to your server</h3>
