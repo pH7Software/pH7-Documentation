@@ -5,7 +5,10 @@
 <p>Before every update/upgrade, don't forget to backup your whole website and your database.</p>
 
 <h3>Extract the upgrade archive</h3>
-<p>Extract the update Zip archive using a file archiver software such <a href="http://sourceforge.net/projects/sevenzip/">7-Zip</a>.</p>
+<p>
+    Extract the <a href="https://sourceforge.net/projects/ph7socialdating/files/latest/download" target="_blank" rel="nofollow noopener">software zip archive</a> using a file archiver software such <a href="http://sourceforge.net/projects/sevenzip/">7-Zip</a>.<br />
+    Remove "<strong>~/YOUR-PROTECTED-FOLDER/framework/Security/Version.class.php</strong>" from the archive before overwriting all files on your server (Version.class.php don't have to be overwritten).
+</p>
 
 <h3>Upload files to your server</h3>
 <p>Using an FTP client such <a href="http://filezilla-project.org" title="FileZilla Client">FileZilla</a>.<br />
