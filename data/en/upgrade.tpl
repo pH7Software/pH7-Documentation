@@ -33,7 +33,7 @@ If you want to allow it, you need to set in numerical values <em>777</em> for al
 <h3>Run the upgrade wizard</h3>
 <p>You must login as administrator and go to the following URL and follow the instructions carefully: <em>http://YOUR-DOMAIN.COM/<strong>asset/file/Upgrade</strong></em></p>
 
-<p class="warning">If more than one upgrade is available on the "Upgrade" page, please run from oldest version to newest one (all of the available upgrades have to be executed).</p>
+<p class="warning">If more than one upgrade is available on the "Upgrade" page, please run from the oldest version to the newest one (all of them have to be executed).</p>
 
 <figure>
     <a href="{site_url}static/img/upgrade-page-ph7cms.png" target="_blank">
