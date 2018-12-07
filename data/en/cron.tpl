@@ -4,7 +4,7 @@
 <p>If they do not work properly, the site may not function properly and have the server overload, excessive CPU resources, database overload, etc.</p>
 <p>The crons in pH7CMS are very easy to configure.</p>
 <p>
-    <strong>Attention, before continuing, you must change the secret word of cron (this is the parameter "secret_word" in the cron URL) by yours (through the <i>Admin Panel -> Settings -> General -> Automation</i>) to prevent others activate the cron without your knowledge.</strong>
+    <strong>Attention, before continuing, you must change the secret word of cron (this is the parameter "secret_word" in the cron URL) by yours (through the <i>Admin Panel -> Setting -> General -> Automation</i>) to prevent others activate the cron without your knowledge.</strong>
 </p>
 
 <p>
