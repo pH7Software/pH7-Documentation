@@ -4,7 +4,7 @@
 
 <figure>
     <img src="{site_url}static/img/admin-panel-login-url.png"
-         alt="Où est l'URL du panneau d'administration"
-         title="Où est l'URL du panneau d'administration" />
+        alt="Où est l'URL du panneau d'administration"
+        title="Où est l'URL du panneau d'administration" />
     <figcaption><em>URL pour accéder au panneau d'administration</em></figcaption>
 </figure>
