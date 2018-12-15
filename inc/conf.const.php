@@ -22,12 +22,17 @@ $sPhp_self = str_replace('\\', '', dirname(htmlspecialchars($_SERVER['PHP_SELF']
 #################### CONSTANTS ####################
 
 
+########## INFORMATION ##########
+
+define('SITE_NAME', 'pH7CMS');
+define('SITE_SLOGAN', 'Documentation');
+
 ########## OTHER ##########
 
-define('SELF', (substr($sPhp_self, -1) !== '/') ? $sPhp_self . '/' : $sPhp_self);
-define('RELATIVE', SELF);
 define('DEF_LANG', 'en');
 define('TPL', 'base');
+define('SELF', (substr($sPhp_self, -1) !== '/') ? $sPhp_self . '/' : $sPhp_self);
+define('RELATIVE', SELF);
 
 ########## URL ##########
 
@@ -39,8 +44,3 @@ define('STATIC_URL', RELATIVE . 'static/');
 
 define('ROOT_PATH', dirname(__DIR__) . '/');
 define('DATA_PATH', ROOT_PATH . 'data/');
-
-########## INFORMATION ##########
-
-define('SITE_NAME', 'pH7CMS');
-define('SITE_SLOGAN', 'Documentation');
