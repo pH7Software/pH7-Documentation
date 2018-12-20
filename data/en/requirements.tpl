@@ -78,7 +78,7 @@
 <h2>MySQL or MariaDB</h2>
 <h3>Minimum:</h3>
 <ul>
-    <li>Version - 5.0.15 or higher</li>
+    <li>Version - 5.5.3 or higher</li>
     <li>InnoDB table support</li>
 </ul>
 <h3>Recommended:</h3>
