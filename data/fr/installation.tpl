@@ -14,8 +14,9 @@
 <p>Si le système d'exploitation de votre serveur est de type Unix, vous devez vérifier si les permissions des fichiers (CHMOD) sont correctement configuré.<br />
 En valeurs numériques cela doit être <em>755</em> pour tous les dossiers et <em>644</em> pour tous les fichiers.<br />
 Attention, les dossiers suivants doivent avoir les permissions <em>777</em> :</p>
+<pre>~/VOTRE-DOSSIER-PUBLIC/_install/data/logs/*</pre>
+<pre>~/VOTRE-DOSSIER-PUBLIC/_install/data/caches/*</pre>
 <pre>~/VOTRE-DOSSIER-PUBLIC/data/system/modules/*</pre>
-<pre>~/VOTRE-DOSSIER-PUBLIC/_install/*</pre>
 <pre>~/VOTRE-DOSSIER-PUBLIC/_repository/module/*</pre>
 <pre>~/VOTRE-DOSSIER-PUBLIC/_repository/upgrade/*</pre>
 <pre>~/VOTRE-DOSSIER-PROTECTED/app/configs/*</pre>
