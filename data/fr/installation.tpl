@@ -24,7 +24,6 @@ Attention, les dossiers suivants doivent avoir les permissions <em>777</em> :</p
 <pre>~/VOTRE-DOSSIER-PROTECTED/data/backup/*</pre>
 <pre>~/VOTRE-DOSSIER-PROTECTED/data/tmp/*</pre>
 <pre>~/VOTRE-DOSSIER-PROTECTED/data/log/*</pre>
-<pre>~/VOTRE-DOSSIER-PROTECTED/framework/Core/*</pre>
 <p>
     <span class="warning">Attention, ces permissions ne permettant pas l'édition et la création de fichiers dans le module File Management du panneau d'administration.</span><br />
     Si vous voulez le permettre, vous devez mettre en valeurs numériques <em>777</em> pour tous les dossiers et <em>666</em> pour tous les fichiers.
