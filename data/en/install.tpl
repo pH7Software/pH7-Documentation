@@ -23,7 +23,6 @@ Warning, the following folders must have <em>777</em> CHMOD permissions:</p>
 <pre>~/YOUR-PROTECTED-FOLDER/data/backup/*</pre>
 <pre>~/YOUR-PROTECTED-FOLDER/data/tmp/*</pre>
 <pre>~/YOUR-PROTECTED-FOLDER/data/log/*</pre>
-<pre>~/YOUR-PROTECTED-FOLDER/framework/Core/*</pre>
 <p><span class="warning">Warning, these permissions don't allow editing and creating files in the File Management admin module.</span><br />
 If you want to allow it, you need to set in numerical values <em>777</em> to all folders and <em>666</em> to all files.</p>
 
