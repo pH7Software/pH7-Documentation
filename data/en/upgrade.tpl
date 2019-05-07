@@ -37,10 +37,13 @@ If you want to allow it, you need to set in numerical values <em>777</em> for al
 <figure>
     <a href="{site_url}static/img/upgrade-page-ph7cms.png" target="_blank">
         <img src="{site_url}static/img/upgrade-page-ph7cms.png"
-             alt="Upgrade page; Order of upgrade patch to be executed"
-             title="Upgrade page; Order of upgrade patch to be executed" />
+            alt="Upgrade page; Order of upgrade patch to be executed"
+            title="Upgrade page; Order of upgrade patch to be executed"
+        />
     </a>
-    <figcaption><em>Upgrade page; Order of upgrade patch to be executed</em></figcaption>
+    <figcaption>
+        <em>Upgrade page; Order of upgrade patch to be executed</em>
+    </figcaption>
 </figure>
 
 
