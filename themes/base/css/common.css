@@ -80,6 +80,10 @@ abbr {
     font-weight: bold;
 }
 
+.no-border {
+    border: 0;
+}
+
 img, video, iframe {
     max-width: 100%;
 }
