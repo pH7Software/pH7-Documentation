@@ -41,4 +41,4 @@
 <p>
     P.S. <strong>Terms</strong> and <strong>Privacy</strong> pages aren't translatable, because of their big size.<br />
     However, you can change the text of those pages easily through the <em>Admin Panel -> File/Page -> Page Module</em>.
-</p>
+</p> <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="pt_br" xml:lang="pt_br">
