@@ -5,4 +5,6 @@
 <pre>"GET http://YOUR-SITE.com/asset/cron/96h/General/?secret_word=YOUR_SECRET_WORD"</pre>
 
 
-<p class="small">Note: The word "YOUR_SECRET_WORD" is to change in the "<em>settings</em>" section of your admin panel.</p>
+<p class="small">
+    Note: The word "YOUR_SECRET_WORD" is to change in your admin panel, Settings -> General -> Automation, in the "<em>Secret word for the cron URL</em>" field.
+</p>
