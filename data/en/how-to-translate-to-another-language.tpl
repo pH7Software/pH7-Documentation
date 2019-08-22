@@ -3,7 +3,7 @@
 <p><a href="http://ph7cms.com/why-ph7cms-name">pH7CMS</a> uses gettext libraries and tools for internationalization.</p>
 
 <p>
-    You can make a translation to your own language using the global POT file (available <a href="https://github.com/pH7Software/pH7-Internationalization/blob/master/global.pot">here</a>, in <a href="https://github.com/pH7Software/pH7-Internationalization">pH7-Internationalization</a> repo).<br />
+    You can create a translation to your language using the global POT file (available <a href="https://github.com/pH7Software/pH7-Internationalization/blob/master/global.pot">here</a>, in <a href="https://github.com/pH7Software/pH7-Internationalization">pH7-Internationalization</a> repo).<br />
     You can also create a new translation from the 'global.po' file located in pH7CMS project "_protected/app/langs/en_US/LC_MESSAGES/global.po"
 </p>
 
