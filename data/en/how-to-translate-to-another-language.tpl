@@ -8,7 +8,7 @@
 </p>
 
 <p>
-    You will also have to translate "language.php" located in "_protected/app/langs/en_US/language.php" (replace "en_US" to your own language).<br />
+    You will also have to translate "language.php" located in "_protected/app/langs/en_US/language.php" (replace "en_US" to your language).<br />
     and edit "_protected/app/langs/en_US/config/config.ini" (like changing "<code>lang = id</code>" located in the beginning of the file).
 </p>
 
