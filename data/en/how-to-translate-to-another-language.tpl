@@ -18,7 +18,7 @@
 </p>
 
 <p>
-   pH7CMS is already translated into Spanish, Italian, Dutch, Brazilian Portuguese, Indonesian and French. You can find those translations <a href="https://github.com/pH7Software/pH7-Internationalization">here</a>.<br />
+   pH7CMS is already (partially) translated into Spanish, Italian, German, Dutch, Brazilian Portuguese, Indonesian and French. You can find those translations <a href="https://github.com/pH7Software/pH7-Internationalization">here</a>.<br />
    <a href="https://github.com/pH7Software/pH7-Internationalization#how-to-install-those-languages">How to install them</a> and <a href="https://github.com/pH7Software/pH7-Internationalization#troubleshooting">troubleshooting</a>.<br />
    <em>Please note that the software is in constant evolution, giving new language strings over time. Taking this into account, you may have to translate new strings from the translated `global.po` file.</em>
 </p>
