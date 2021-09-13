@@ -8,6 +8,16 @@ ErrorDocument 404 http://ph7cms.com/doc/index.php?p=core/404-error
 
     RewriteEngine On
 
+    # Uncomment the following only if HTTPS is enabled. HSTS header increases security of your website & SEO
+    # <IfModule mod_headers.c>
+    # Header set Strict-Transport-Security "max-age=31536000; preload" env=HTTPS
+    # </IfModule>
+
+    # Remove www subdomain in the URL
+    # RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    # RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
     # e.g. http://my-site.com/en/
     RewriteRule ^([a-z]{2})/?$ index.php?l=$1 [L]
 
