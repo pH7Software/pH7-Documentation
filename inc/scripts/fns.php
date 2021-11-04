@@ -59,6 +59,7 @@ function parse_var($sContent)
     $sContent = str_replace('{menu_links}', get_links_html(), $sContent);
     $sContent = str_replace('{menu_langs}', get_langs_html(), $sContent);
     $sContent = str_replace('{year}', date('Y'), $sContent);
+    $sContent = str_replace('{git_repo_url}', GIT_REPO_URL, $sContent);
     $sContent = str_replace('{edit_page_url}', get_edit_page_url(), $sContent);
 
     return $sContent;
