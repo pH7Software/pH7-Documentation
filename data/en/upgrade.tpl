@@ -7,7 +7,7 @@
 <p>
     Extract the latest version of the <a href="https://sourceforge.net/projects/ph7socialdating/files/latest/download" target="_blank" rel="nofollow noopener" title="Download It!">software zip archive</a> using a file archiver software such <a href="http://sourceforge.net/projects/sevenzip/">7-Zip</a>.<br />
     <span class="warning">
-        Delete "<strong>_protected/framework/Security/Version.class.php</strong>" and  "<strong>_install/</strong>" from the archive before overwriting all files to your server</span> ("Version.class.php" doesn't have to be overwritten!).
+        Delete "<strong>_protected/framework/Security/Version.class.php</strong>" and "<strong>_install/</strong>" from the archive before overwriting all files to your server</span> ("<em>Version.class.php</em>" doesn't have to be overwritten).
 </p>
 
 <h3>Upload files to your server</h3>
