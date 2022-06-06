@@ -1,6 +1,6 @@
 <h2>How to translate my site to another language</h2>
 
-<p><a href="http://ph7cms.com/why-ph7cms-name">pH7CMS</a> uses gettext libraries and tools for internationalization.</p>
+<p><a href="http://ph7builder.com/why-ph7cms-name">pH7CMS</a> uses gettext libraries and tools for internationalization.</p>
 
 <p>
     You can create a translation to your language using the global POT file (available <a href="https://github.com/pH7Software/pH7-Internationalization/blob/master/global.pot">here</a>, in <a href="https://github.com/pH7Software/pH7-Internationalization">pH7-Internationalization</a> repo).<br />

@@ -5,7 +5,7 @@
 <ul>
     <li>Operating System - Linux/Unix (Red Hat, CentOS, Debian, FreeBSD, Mandrake, Mac OS, etc.), Windows.</li>
     <li>Web Server - Apache with mod_php enabled, PHP in CGI, FastCGI mode, or with <a
-                href="http://ph7cms.com/doc/en/nginx-configuration">nginx</a> (lighttpd, LiteSpeed and IIS should also
+                href="http://ph7builder.com/doc/en/nginx-configuration">nginx</a> (lighttpd, LiteSpeed and IIS should also
         work but you have to change some piece of code to make it working).
     </li>
     <li>URL rewriting extension module - Apache, nginx, lighttpd, LiteSpeed, IIS (for Web.config, you have a <a

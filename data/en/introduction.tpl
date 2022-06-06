@@ -1,4 +1,4 @@
-<h2>Introduction for <a href="http://ph7cms.com">pH7 Social Dating CMS</a></h2>
+<h2>Introduction for <a href="http://ph7builder.com">pH7 Social Dating CMS</a></h2>
 
 <p>
     <strong>pH7CMS</strong> is a CMS to build an online dating service or social network website. It is written in object-oriented PHP (OOP) with a <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> pattern (Model-View-Controller).<br />

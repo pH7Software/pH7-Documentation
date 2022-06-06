@@ -8,7 +8,7 @@
 <p>by the new admin folder name.</p>
 
 <p>
-    Finally, since <a href="https://ph7cms.com/ph7cms-12-1-released/">pH7CMS, v12.1</a>), all URL lookups are cached for optimization purposes.
+    Finally, since <a href="https://ph7builder.com/ph7cms-12-1-released/">pH7CMS, v12.1</a>), all URL lookups are cached for optimization purposes.
 </p>
 <p>
     Because of that, you will also have to delete the "~/YOUR-PROTECTED-FOLDER/data/cache/pH7_cache/str/uri/" folder in order to take into account the new admin URL.<br />

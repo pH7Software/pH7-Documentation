@@ -1,4 +1,4 @@
-<h2>Use <a href="http://ph7cms.com">pH7CMS</a> on a non-Linux system</h2>
+<h2>Use <a href="http://ph7builder.com">pH7CMS</a> on a non-Linux system</h2>
 
 <p>Of course, you can also install <strong>pH7CMS</strong> on Mac and Windows!</p>
 <p>All pH7CMS versions are compatible with Mac OS and from <em>pH7CMS 1.0.2</em> with Windows OS.</p>
