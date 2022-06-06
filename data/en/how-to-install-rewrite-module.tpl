@@ -14,4 +14,4 @@ If "<em>&lt;Directory "/var/www"&gt;</em>" isn't present, add <code class="apach
 <p>I hope this help will be useful and will save you much time.</p>
 <p>P.S., Normally, all shared hosts are already configured to work with Apache mod_rewrite and allow configuration via .htaccess</p>
 <p>&nbsp;</p>
-<p>For checking if everything is OK and pH7CMS will be able to work, you can <a href="http://github.com/pH7Software/Rewrite-Mod-Test">use this test rewriting script</a>.</p>
+<p>For checking if everything is OK and pH7Builder will be able to work, you can <a href="http://github.com/pH7Software/Rewrite-Mod-Test">use this test rewriting script</a>.</p>

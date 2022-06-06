@@ -1,4 +1,4 @@
-<h2>How to go to pH7CMS Administration Panel</h2>
+<h2>How to go to pH7Builder Administration Panel</h2>
 
 <p>The default URL of your Admin Panel is: <em>http://your-site.com/<strong>admin123</strong>/</em></p>
 

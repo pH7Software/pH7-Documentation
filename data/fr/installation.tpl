@@ -1,7 +1,7 @@
 <h2>Installation du logiciel en 5 étapes</h2>
 
 
-<h3>1. Extraire l'archive pH7CMS</h3>
+<h3>1. Extraire l'archive pH7Builder</h3>
 <p>Décompressez l'archive ZIP en utilisant un logiciel d'archivage de fichiers comme <a href="http://sourceforge.net/projects/sevenzip/">7-Zip</a>.</p>
 
 <h3>2. Téléchargez les fichiers vers votre serveur</h3>

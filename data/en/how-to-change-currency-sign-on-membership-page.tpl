@@ -1,6 +1,6 @@
 <h2>How to Change the Currency Sign on the Membership Plans Page?</h2>
 
-<p>By default, pH7CMS displays the currency sign fist (e.g., <em><strong>$</strong>55</em>).</p>
+<p>By default, pH7Builder displays the currency sign fist (e.g., <em><strong>$</strong>55</em>).</p>
 
 <figure>
     <img src="{site_url}static/img/membership-page.png"

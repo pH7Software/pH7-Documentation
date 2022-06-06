@@ -1,6 +1,6 @@
 <h2>Installing the software in just 5 steps!</h2>
 
-<h3>1. Extract the pH7CMS archive</h3>
+<h3>1. Extract the pH7Builder archive</h3>
 <p>Extract the Zip archive using a file archiver software such as <a href="http://www.7-zip.org/download.html">7-Zip</a>.</p>
 
 <h3>2. Upload files to your server</h3>

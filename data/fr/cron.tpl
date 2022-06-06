@@ -1,9 +1,9 @@
 <h2>Les Cron Jobs</h2>
 
-<p>Les tâches Cron Jobs sont très importants pour pH7CMS.</p>
+<p>Les tâches Cron Jobs sont très importants pour pH7Builder.</p>
 <p>S'ils ne fonctionnent pas correctement, le site risque de ne pas fonctionner correctement et d'avoir des surcharge sur le serveur, ressource excessive en CPU, base de données surchargés, etc.</p>
 
-<p>L'utilisation des tâches périodiques de pH7CMS sont très faciles à configurer.</p>
+<p>L'utilisation des tâches périodiques de pH7Builder sont très faciles à configurer.</p>
 <p><strong>Attention, avant de continuer, vous devez changer le mot secret du cron (c'est le paramètre "secret_word" dans l'URL du cron) par le vôtre dans la partie d'administration afin d'éviter que d'autres personnes activent le cron à votre insu.</strong></p>
 
 <p>Par exemple pour exécuter la tâche de la base de données du serveur MySQL,<br />

@@ -7,8 +7,8 @@
     <a href="{site_url}static/img/edit-static-pages.png" target="_blank">
         <img
             src="{site_url}static/img/edit-static-pages.png"
-            alt="How to edit the static pages with pH7CMS"
-            title="How to edit the static pages with pH7CMS" />
+            alt="How to edit the static pages with pH7Builder"
+            title="How to edit the static pages with pH7Builder" />
     </a>
     <figcaption>Edit the static pages of your website</figcaption>
 </figure>

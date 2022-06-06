@@ -1,10 +1,10 @@
 <h2>How to translate my site to another language</h2>
 
-<p><a href="http://ph7builder.com/why-ph7cms-name">pH7CMS</a> uses gettext libraries and tools for internationalization.</p>
+<p><a href="http://ph7builder.com/why-ph7cms-name">pH7Builder</a> uses gettext libraries and tools for internationalization.</p>
 
 <p>
     You can create a translation to your language using the global POT file (available <a href="https://github.com/pH7Software/pH7-Internationalization/blob/master/global.pot">here</a>, in <a href="https://github.com/pH7Software/pH7-Internationalization">pH7-Internationalization</a> repo).<br />
-    You can also create a new translation from the 'global.po' file located in pH7CMS project "_protected/app/langs/en_US/LC_MESSAGES/global.po"
+    You can also create a new translation from the 'global.po' file located in pH7Builder project "_protected/app/langs/en_US/LC_MESSAGES/global.po"
 </p>
 
 <p>
@@ -18,7 +18,7 @@
 </p>
 
 <p>
-   pH7CMS is already (partially) translated into Spanish, Italian, German, Dutch, Brazilian Portuguese, Indonesian and French. You can find those translations <a href="https://github.com/pH7Software/pH7-Internationalization">here</a>.<br />
+   pH7Builder is already (partially) translated into Spanish, Italian, German, Dutch, Brazilian Portuguese, Indonesian and French. You can find those translations <a href="https://github.com/pH7Software/pH7-Internationalization">here</a>.<br />
    <a href="https://github.com/pH7Software/pH7-Internationalization#how-to-install-those-languages">How to install them</a> and <a href="https://github.com/pH7Software/pH7-Internationalization#troubleshooting">troubleshooting</a>.<br />
    <em>Please note that the software is in constant evolution, giving new language strings over time. Taking this into account, you may have to translate new strings from the translated `global.po` file.</em>
 </p>

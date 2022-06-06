@@ -22,7 +22,7 @@
         default and uses our homemade compressor instead. However, if you have Java installed on your server, it would
         be nicer to enable that option).
     </li>
-    <li><strong>Apache ModSecurity disabled</strong> - pH7CMS may not work correctly if enabled, so it's advisable to disable it for
+    <li><strong>Apache ModSecurity disabled</strong> - pH7Builder may not work correctly if enabled, so it's advisable to disable it for
         your domain (just ask your Web host or do it through cPanel).
     </li>
 </ul>
@@ -59,7 +59,7 @@
 <h3>Recommended:</h3>
 <ul>
     <li><span class="bold">PHP 7.1</span> or higher
-        <small>(pH7CMS has been especially optimized for PHP 7+ and is about over 2x faster than older versions. Please
+        <small>(pH7Builder has been especially optimized for PHP 7+ and is about over 2x faster than older versions. Please
             note your server configuration can also change a lot your site performance).
         </small>
     </li>

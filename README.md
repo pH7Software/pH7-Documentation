@@ -5,8 +5,8 @@ _The Documentation for the "pH7 Social Dating Builder" Software._
 
 ## Websites
 
-* [pH7CMS - Social Dating Script](http://ph7builder.com)
-* [pH7CMS - GitHub](https://github.com/pH7Software/pH7-Social-Dating-CMS)
+* [pH7Builder - Social Dating Script](http://ph7builder.com)
+* [pH7Builder - GitHub](https://github.com/pH7Software/pH7-Social-Dating-CMS)
 
 
 ## Author

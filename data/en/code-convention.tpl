@@ -1,5 +1,5 @@
-<h1>Coding Conventions for pH7CMS</h1>
-<p>When working with pH7CMS's code, developing extensions and modifications in the code, these coding conventions are highly recommended and will make your code easier to read/understand for other devs.</p>
+<h1>Coding Conventions for pH7Builder</h1>
+<p>When working with pH7Builder's code, developing extensions and modifications in the code, these coding conventions are highly recommended and will make your code easier to read/understand for other devs.</p>
 
 <h2>Class, Interface and Trait Names</h2>
 <p>UpperCamelCase (<a href="http://en.wikipedia.org/wiki/StudlyCaps">StudlyCaps</a>) and alphanumeric only.</p>

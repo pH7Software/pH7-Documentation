@@ -3,7 +3,7 @@
  * @author      Pierre-Henry Soria
  * @email       pierrehs@hotmail.com
  * @link        http://github.com/pH-7/Nav-Doc-Script-V2
- * @copyright   (c) 2012-2019, Pierre-Henry Soria. All Rights Reserved.
+ * @copyright   (c) 2012-2022, Pierre-Henry Soria. All Rights Reserved.
  * @license     CC-BY - http://creativecommons.org/licenses/by/3.0/
  */
 
@@ -24,7 +24,7 @@ $sPhp_self = str_replace('\\', '', dirname(htmlspecialchars($_SERVER['PHP_SELF']
 
 ########## INFORMATION ##########
 
-define('SITE_NAME', 'pH7CMS');
+define('SITE_NAME', 'pH7Builder');
 define('SITE_SLOGAN', 'Documentation');
 
 ########## OTHER ##########

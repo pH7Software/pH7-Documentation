@@ -1,6 +1,6 @@
 <h2>Nginx Configuration</h2>
 
-<p>In order to get <a href="http://ph7builder.com">pH7CMS</a> working on nginx server, you need to add some custom nginx configuration.</p>
+<p>In order to get <a href="http://ph7builder.com">pH7Builder</a> working on nginx server, you need to add some custom nginx configuration.</p>
 
 <p>Create "<em>/etc/nginx/ph7cms.conf</em>" and add the following:</p>
 

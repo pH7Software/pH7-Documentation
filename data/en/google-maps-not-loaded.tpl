@@ -6,7 +6,7 @@
     This page didn't load Google Maps correctly. See the JavaScript console for technical details.
 </pre>
 <p>This happens when your domain is new and has never used Google Maps prior June 22nd, 2016.</p>
-<p>Google Maps recently changed its TOS and requires now an API key. So pH7CMS 2.0 and newer allows you to add a Gogole
+<p>Google Maps recently changed its TOS and requires now an API key. So pH7Builder 2.0 and newer allows you to add a Gogole
     API key.</p>
 <p>To do it, go to your admin panel -> Setting -> General -> API -> Google Maps API Key</p>
 <p>We cannot do anything for that, you will just have to move your site to a domain that respects the TOS of Google
@@ -24,10 +24,10 @@
 <figure>
     <a href="{site_url}static/img/google-map-api-form.png" target="_blank">
         <img src="{site_url}static/img/google-map-api-form.png"
-            alt="Google Maps Setting Form in pH7CMS Admin Panel"
-            title="Google Maps Setting Form in pH7CMS Admin Panel" />
+            alt="Google Maps Setting Form in pH7Builder Admin Panel"
+            title="Google Maps Setting Form in pH7Builder Admin Panel" />
     </a>
-    <figcaption>Google Maps Setting Form in pH7CMS Admin Panel</figcaption>
+    <figcaption>Google Maps Setting Form in pH7Builder Admin Panel</figcaption>
 </figure>
 
 <figure>
