@@ -12,7 +12,7 @@ namespace PH7\Doc;
 defined('PH7') or exit('Restricted access');
 
 /**
- * @return string The links of the tpl files doc.
+ * @return string The links of the tpl doc files.
  */
 function get_links_html()
 {
