@@ -50,7 +50,7 @@ function get_page($sPage)
  */
 function parse_var($sContent)
 {
-    $sContent = str_replace('{site_url}', RELATIVE, $sContent);
+    $sContent = str_replace('{site_url}', ROOT_URL, $sContent);
     $sContent = str_replace('{static_url}', STATIC_URL, $sContent);
     $sContent = str_replace('{lang}', LANG, $sContent);
     $sContent = str_replace('{tpl_name}', TPL, $sContent);
