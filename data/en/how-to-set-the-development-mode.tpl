@@ -1,8 +1,7 @@
 <h2>How to set the development mode</h2>
 
 <p class="italic">
-    <span class="warning">WARNING, this procedure concerns only pH7Builder versions lower than 1.3.0</span><br />
-    From pH7Builder 1.3, this option is available in the Admin Panel -> Tools -> Environment Mode.<br />
+    <em>Since pH7Builder 1.3, this option is available in the Admin Panel -> Tools -> Environment Mode.</em><br />
     <span class="underline">However, you might still need to set the development mode manually. For example, if you are not able to login into the admin panel at that time or if the error occurs all pages of the website.</span>
 </p>
 
