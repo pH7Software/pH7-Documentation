@@ -1,51 +1,40 @@
-<h2>Update/Upgrade Software</h2>
+<h2>Upgrade pH7Builder safely</h2>
 
-<h3>Backup!</h3>
-<p>Before every update/upgrade, don't forget to backup your whole website and your database.</p>
+<p class="warning">Automatic in-place upgrades are currently unavailable. Test a manual upgrade on a staging copy before
+    changing production. Follow the <a href="https://github.com/pH7Software/pH7-Social-Dating-CMS/blob/18.x/docs/UPGRADING.md">maintained upgrade guide</a>
+    for your exact starting version.</p>
 
-<h3>Extract the upgrade archive</h3>
-<p>
-    Extract the latest version of the <a href="https://sourceforge.net/projects/ph7socialdating/files/latest/download" target="_blank" rel="nofollow noopener" title="Download It!">software zip archive</a> using a file archiver software such <a href="http://sourceforge.net/projects/sevenzip/">7-Zip</a>.<br />
-    <span class="warning">
-        Delete "<strong>_protected/framework/Security/Version.class.php</strong>" and "<strong>_install/</strong>" from the archive before overwriting all files to your server</span> ("<em>Version.class.php</em>" doesn't have to be overwritten).
-</p>
+<h3>Back up and check compatibility</h3>
+<p>Record your installed version and database schema. Read the target release notes and confirm PHP 8.2+ and MySQL 8.0+.
+    Back up the database, configuration, uploaded data, custom modules, themes, language packs, and gateway credentials.
+    Restore the backup on staging before putting production into maintenance mode.</p>
 
-<h3>Upload files to your server</h3>
-<p>Using an FTP client such <a href="http://filezilla-project.org" title="FileZilla Client">FileZilla</a>.<br />
-You must transfer ALL files and folders (even empty folders and files). Don't delete any files. just over write them.</p>
+<h3>Deploy the target release</h3>
+<p>Use the versioned ZIP and checksum from the <a href="https://github.com/pH7Software/pH7-Social-Dating-CMS/releases">GitHub release</a>.
+    Preserve local configuration and content; do not blindly overwrite them. Deploy the target release's
+    <code>_protected/framework/Security/Version.class.php</code> along with its other application files.
+    Do not restore an older version file or mix application versions.</p>
+<p>For source deployments, run <code>composer install --no-dev --prefer-dist --optimize-autoloader</code> using the target lock file.
+    Do not leave the newly uploaded <code>_install</code> directory accessible on an existing site.</p>
 
-<h3>File Permissions</h3>
-<p>If your OS server is a Unix-like, you must check if the file permissions (CHMOD) are correctly configured.<br />
-In numerical values ​​that must be <em>755</em> for all folders and <em>644</em> for all files.<br />
-Warning, the following folders must have <em>777</em> permissions:</p>
-<pre>~/YOUR-PUBLIC-FOLDER/data/system/modules/*</pre>
-<pre>~/YOUR-PUBLIC-FOLDER/_repository/module/*</pre>
-<pre>~/YOUR-PUBLIC-FOLDER/_repository/upgrade/*</pre>
-<pre>~/YOUR-PROTECTED-FOLDER/app/configs/*</pre>
-<pre>~/YOUR-PROTECTED-FOLDER/data/cache/*</pre>
-<pre>~/YOUR-PROTECTED-FOLDER/data/backup/*</pre>
-<pre>~/YOUR-PROTECTED-FOLDER/data/tmp/*</pre>
-<pre>~/YOUR-PROTECTED-FOLDER/data/log/*</pre>
-<p><span class="warning">Warning, these permissions don't allow editing and creating files in the File Management admin module.</span><br />
-If you want to allow it, you need to set in numerical values <em>777</em> for all folders and <em>666</em> for all files.</p>
+<h3>Apply only the required migrations</h3>
+<p>Version 19.0.0 keeps SQL schema <code>1.6.6</code>. Sites already on 18.6.0, 18.6.1, or 18.6.2 need no database migration.
+    Older sites must apply every applicable intermediate migration in order; 18.5.1 needs the reviewed
+    <code>18.5.1-18.6.0</code> migration. Check the installed table prefix before running SQL.
+    If the starting schema is uncertain, stop and identify it first.</p>
 
-<h3>Run the upgrade wizard</h3>
-<p>You must login as administrator and go to the following URL and follow the instructions carefully: <em>http://YOUR-DOMAIN.COM/<strong>asset/file/Upgrade</strong></em></p>
+<h3>Check permissions and verify</h3>
+<p>Follow the <a href="https://github.com/pH7Software/pH7-Social-Dating-CMS/blob/18.x/docs/QUICK_START.md#4-set-narrow-filesystem-permissions">narrow permission instructions</a>;
+    do not use site-wide <code>777</code> or <code>666</code>. Keep code read-only to the PHP process and preserve the specific writable runtime/configuration targets.</p>
+<p>Clear application caches in Admin → Tools → Caches. Confirm the displayed target version, then test signup, login,
+    profiles, Notes, uploads, email, cron, and payment callbacks. Review logs before reopening the site.
+    If verification fails, restore the previous files and database together.</p>
 
-<p class="warning">If more than one upgrade is available on the "Upgrade" page, please run from the oldest version to the newest one (all of them have to be executed).</p>
-
+<h3>Historical upgrade screen</h3>
+<p>This image illustrates the order of migrations in older releases; it is not the current upgrade procedure.</p>
 <figure>
-    <a href="{site_url}static/img/upgrade-page-ph7cms.png" target="_blank">
-        <img src="{site_url}static/img/upgrade-page-ph7cms.png"
-            alt="Upgrade page; Order of upgrade patch to be executed"
-            title="Upgrade page; Order of upgrade patch to be executed"
-        />
+    <a href="{site_url}static/img/upgrade-page-ph7cms.png" target="_blank" rel="noopener">
+        <img src="{site_url}static/img/upgrade-page-ph7cms.png" alt="Historical upgrade screen showing migration order" />
     </a>
-    <figcaption>
-        <em>Upgrade page; Order of upgrade patch to be executed</em>
-    </figcaption>
+    <figcaption>Earlier releases applied migrations from oldest to newest.</figcaption>
 </figure>
-
-
-<h3>Put back your modifications (optional)</h3>
-<p>Put back any modifications you did from your latest backup since they could have been erase from the update.</p>
