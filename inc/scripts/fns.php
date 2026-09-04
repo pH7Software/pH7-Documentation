@@ -130,7 +130,7 @@ function get_edit_page_url()
         return '';
     }
 
-    $sUrl = GIT_REPO_URL . '/blob/master/data/';
+    $sUrl = GIT_REPO_URL . '/blob/main/data/';
     $sUrl .= LANG . '/';
     $sUrl .= strip_tags($_GET['p']);
     $sUrl .= '.tpl';
