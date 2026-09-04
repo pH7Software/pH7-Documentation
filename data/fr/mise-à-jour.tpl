@@ -1,30 +1,33 @@
-<h2>Mise à niveau de logiciel</h2>
+<h2>Mettre à jour pH7Builder en toute sécurité</h2>
 
+<p class="warning">La mise à jour automatique sur place est actuellement indisponible. Testez une mise à jour manuelle sur
+    une copie de préproduction avant de modifier le site public. Suivez le
+    <a href="https://github.com/pH7Software/pH7-Social-Dating-CMS/blob/18.x/docs/UPGRADING.md">guide maintenu (en anglais)</a>
+    correspondant à votre version de départ.</p>
 
-<h3>Extraire l'archive de mise à jour</h3>
-<p>Décompressez l'archive ZIP de mise à jour en utilisant un logiciel d'archivage de fichiers comme <a href="http://sourceforge.net/projects/sevenzip/">7-Zip</a>.</p>
+<h3>Sauvegarder et vérifier les prérequis</h3>
+<p>Notez la version et le schéma SQL installés. Lisez les notes de version et vérifiez PHP 8.2+ et MySQL 8.0+.
+    Sauvegardez la base de données, la configuration, les médias, les modules, thèmes et traductions personnalisés,
+    ainsi que les identifiants des services de paiement. Testez la restauration sur une copie séparée avant de passer le site en maintenance.</p>
 
-<h3>Téléchargez les fichiers vers votre serveur</h3>
-<p>Utilisez un client FTP comme <a href="http://filezilla-project.org" title="FileZilla Client">FileZilla</a>.<br />
-Transférer TOUS les fichiers et dossiers (même les dossiers et les fichiers vides). Ne supprimez pas les anciens fichiers, vous devez simplement les remplacer.</p>
+<h3>Déployer la version cible</h3>
+<p>Utilisez le ZIP versionné et sa somme de contrôle depuis les
+    <a href="https://github.com/pH7Software/pH7-Social-Dating-CMS/releases">publications GitHub</a>.
+    Préservez la configuration et les contenus locaux ; ne les écrasez pas aveuglément.
+    Déployez le fichier <code>_protected/framework/Security/Version.class.php</code> de la version cible avec le reste du code.</p>
+<p>Depuis les sources, exécutez <code>composer install --no-dev --prefer-dist --optimize-autoloader</code> avec le fichier
+    de verrouillage de la version cible. Ne laissez pas le dossier <code>_install</code> accessible sur un site existant.</p>
 
-<h3>Permissions des fichiers</h3>
-<p>Si le système d'exploitation de votre serveur est de type Unix, vous devez vérifier si les permissions des fichiers (CHMOD) sont correctement configuré.<br />
-En valeurs numériques cela doit être <em>755</em> pour tous les dossiers et <em>644</em> pour tous les fichiers.<br />
-Attention, les dossiers suivants doivent avoir les permissions <em>777</em> :</p>
-<pre>~/VOTRE-DOSSIER-PUBLIC/data/system/modules/*</pre>
-<pre>~/VOTRE-DOSSIER-PUBLIC/_repository/module/*</pre>
-<pre>~/VOTRE-DOSSIER-PUBLIC/_repository/upgrade/*</pre>
-<pre>~/VOTRE-DOSSIER-PROTECTED/app/configs/*</pre>
-<pre>~/VOTRE-DOSSIER-PROTECTED/data/cache/*</pre>
-<pre>~/VOTRE-DOSSIER-PROTECTED/data/backup/*</pre>
-<pre>~/VOTRE-DOSSIER-PROTECTED/data/tmp/*</pre>
-<pre>~/VOTRE-DOSSIER-PROTECTED/data/log/*</pre>
-<p><span class="warning">Attention, ces permissions ne permettant pas l'édition et la création de fichiers dans le module File Management du panneau d'administration.</span><br />
-Si vous voulez le permettre, vous devez mettre en valeurs numériques <em>777</em> pour tous les dossiers et <em>666</em> pour tous les fichiers.</p>
+<h3>Appliquer les migrations nécessaires</h3>
+<p>La version 19.0.0 conserve le schéma SQL <code>1.6.6</code> : aucune migration n'est nécessaire depuis 18.6.0, 18.6.1 ou 18.6.2.
+    Pour une version plus ancienne, appliquez chaque migration intermédiaire dans l'ordre. La version 18.5.1 nécessite
+    la migration <code>18.5.1-18.6.0</code>. Vérifiez le préfixe des tables avant d'exécuter le SQL.
+    Si le schéma de départ est incertain, identifiez-le avant de continuer.</p>
 
-<h3>Lancez la mise à jour</h3>
-<p>Vous devez vous connecter en tant qu'administrateur et vous rendre à cette URL suivante et suivre attentivement les instructions : <em>http://VOTRE-SITE.COM/<strong>asset/file/Upgrade</strong></em></p>
-
-<h3>Videz les caches</h3>
-<p>Vider tous les caches par le biais de votre panneau d'administration.</p>
+<h3>Vérifier les permissions et le fonctionnement</h3>
+<p>Suivez les <a href="https://github.com/pH7Software/pH7-Social-Dating-CMS/blob/18.x/docs/QUICK_START.md#4-set-narrow-filesystem-permissions">permissions limitées du guide</a>.
+    N'utilisez pas <code>777</code> ou <code>666</code> sur tout le site. Le code doit rester en lecture seule pour PHP,
+    avec des droits d'écriture uniquement sur les fichiers et dossiers prévus.</p>
+<p>Videz les caches depuis Admin → Tools → Caches. Confirmez la version affichée, puis testez l'inscription, la connexion,
+    les profils, les notes, les médias, les e-mails, les tâches cron et les notifications de paiement.
+    Examinez les journaux avant de rouvrir le site. En cas d'échec, restaurez ensemble les anciens fichiers et la base de données.</p>

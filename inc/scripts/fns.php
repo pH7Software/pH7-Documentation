@@ -130,7 +130,7 @@ function get_edit_page_url()
         return '';
     }
 
-    $sUrl = GIT_REPO_URL . '/blob/master/data/';
+    $sUrl = GIT_REPO_URL . '/blob/main/data/';
     $sUrl .= LANG . '/';
     $sUrl .= strip_tags($_GET['p']);
     $sUrl .= '.tpl';
@@ -146,7 +146,7 @@ function get_edit_page_url()
 function set_lang()
 {
     if (!empty($_GET['l']) && is_file(DATA_PATH . $_GET['l'] . '/core/welcome.tpl') && is_file(DATA_PATH . $_GET['l'] . '/core/404-error.tpl')) {
-        setcookie('pH7_doc_lang', $_GET['l'], time() + 60 * 60 * 24 * 365, null, null, false, true);
+        setcookie('pH7_doc_lang', $_GET['l'], time() + 60 * 60 * 24 * 365, '', '', false, true);
         $sLang = $_GET['l'];
     } elseif (isset($_COOKIE['pH7_doc_lang']) && is_dir(DATA_PATH . $_COOKIE['pH7_doc_lang'] . '/core/')) {
         $sLang = $_COOKIE['pH7_doc_lang'];
