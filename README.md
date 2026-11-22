@@ -2,10 +2,13 @@
 
 _The Documentation for the "pH7 Social Dating Builder" Software._
 
+> **Legacy documentation:** Current pH7Builder installation, requirements, and upgrade instructions are maintained with the [core source code](https://github.com/pH7Software/pH7-Social-Dating-CMS/tree/18.x/docs). Older release-specific advice in this repository must not be used to configure new deployments.
+
+
 
 ## Websites
 
-* [pH7Builder - Social Dating Script](http://ph7builder.com)
+* [pH7Builder - Social Dating Script](https://ph7builder.com)
 * [pH7Builder - GitHub](https://github.com/pH7Software/pH7-Social-Dating-CMS)
 
 
